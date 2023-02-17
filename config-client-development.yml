@@ -1,0 +1,7 @@
+errors:
+    not_found:
+        code: 404
+        message: User Not found from yaml file  
+    already_exist:
+        code: 409
+        message: User Already Exist form yaml file
