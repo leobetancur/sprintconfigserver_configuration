@@ -1,8 +1,14 @@
 server:
     errors:
         not_found:
-            code: 404
-            message: User Not found from yaml file  
+            code: A1
+            message: Student does't exist
+            httpstatus: 404
         already_exist:
-            code: 409
-            message: User Already Exist form yaml file
+            code: B2
+            message: Student Already Exists
+            httpstatus: 409
+        database_error:
+            code: C3
+            message : Database Error
+            httpstatus: 500
