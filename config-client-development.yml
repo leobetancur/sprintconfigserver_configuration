@@ -3,12 +3,12 @@ server:
         not_found:
             code: A1
             message: Student does't exist
-            httpstatus: 404
+            httpStatus: 404
         already_exist:
             code: B2
             message: Student Already Exists
-            httpstatus: 409
+            httpStatus: 409
         database_error:
             code: C3
             message : Database Error
-            httpstatus: 500
+            httpStatus: 500
